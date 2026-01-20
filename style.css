@@ -1,0 +1,118 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f5f7fa;
+}
+
+.about-text p{
+margin-bottom:25px;
+line-height:1.8;
+}
+
+.card{
+background:white;
+border-radius:10px;
+padding:25px;
+margin:20px;
+width:260px;
+display:inline-block;
+text-align:center;
+box-shadow:0 8px 20px rgba(0,0,0,0.08);
+transition:0.3s;
+border:1px solid #e0e0e0;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 12px 30px rgba(0,0,0,0.15);
+}
+
+/* Banner */
+.banner{
+width:100%;
+height:240px;
+object-fit:cover;
+display:block;
+}
+
+/* Header text */
+.header-box{
+text-align:center;
+padding:30px;
+background:#0a2540;
+color:white;
+}
+
+/* Navigation */
+.nav-box{
+background:white;
+padding:15px;
+text-align:center;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.nav-box a{
+margin:0 20px;
+text-decoration:none;
+color:#0a2540;
+font-weight:bold;
+}
+
+/* Content */
+.content{
+max-width:900px;
+margin:40px auto;
+background:white;
+padding:40px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Highlight text */
+.highlight{
+color:#0a2540;
+font-weight:bold;
+}
+
+/* Quote */
+.quote{
+display:block;
+margin-top:20px;
+font-style:italic;
+color:#555;
+}
+
+/* Images */
+.float-left{
+float:left;
+width:200px;
+margin:20px;
+border-radius:10px;
+}
+
+.float-right{
+float:right;
+width:200px;
+margin:20px;
+border-radius:10px;
+}
+
+/* About background */
+.about-bg{
+background-image:url("images/bg.png");
+background-size:cover;
+}
+
+/* Footer */
+.footer-box{
+background:#0a2540;
+color:white;
+text-align:center;
+padding:20px;
+clear:both;
+}
